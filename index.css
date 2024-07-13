@@ -35,7 +35,7 @@ body {
     padding: 20px;
 }
 
-.left img {
+.left .vijay{
     margin-top: 30px;
     margin-bottom: 25px;
     width: 180px; /* Set the initial width of the images */
@@ -68,7 +68,7 @@ body {
 }
 
 .contact {
-    margin-top: 80px;
+    margin-top: 65px;
 }
 
 .contact h3 {
@@ -85,35 +85,33 @@ body {
 }
 
 .contact-icons a:hover {
-    transform: translateY(-3px); /* Adding a subtle hover effect */
+    transform: translateY(-6px); /* Adding a subtle hover effect */
 }
-
-.fa-twitter {
-    color: #79c2f0;
-    font-size: 30px;
-    padding-left: 35px;
+.naukri-icon{
+    width: 34px;
+    height:34px;
+    border-radius: 20px;
 }
 
 .fa-instagram {
     color: #e44e4e;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .fa-facebook-f {
     color: #3b5998;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .fa-linkedin-in {
     color: #0077b5;
-    font-size: 30px;
+    font-size: 40px;
 }
-
-.fa-envelope {
-    color: #fcf6f6;
-    font-size: 30px;
+.fa-github{
+    color: #a20ce7;
+    font-size: 40px;
+    padding-left: 30px;
 }
-
 .right {
     background-color:  rgb(215, 193, 223);
     width: 60%;
@@ -179,34 +177,71 @@ body {
         flex-direction: column; /* Stack items vertically */
         height: auto; /* Auto height to fit content */
     }
-
-    .left, .right {
-        width: 100%; /* Full width for both columns */
-        min-height: auto; /* Auto height to fit content */
-        border-radius: 0; /* Remove rounded corners */
+    .naukri-icon{
+        width: 29px;
+        height:29px;
+        border-radius: 20px;
     }
 
-    .left img {
+    .fa-github{
+        color: #a20ce7;
+        font-size: 35px;
+        padding: 0px;
+    }
+    .fa-instagram {
+        color: #e44e4e;
+        font-size: 35px;
+    }
+    
+    .fa-facebook-f {
+        color: #3b5998;
+        font-size: 35px;
+    }
+    
+    .fa-linkedin-in {
+        color: #0077b5;
+        font-size: 35px;
+    }
+
+    .left, .right {
+        width: 90%; /* Full width for both columns */
+        height: auto; /* Auto height to fit content */
+        border-radius: 0; /* Remove rounded corners */
+    }
+    .left{
+     height: fit-content;
+    }
+
+    .left .vijay {
         width: 100px; /* Adjusted image size for smaller screens */
         height: auto; /* Maintain aspect ratio */
         display: block; /* Ensure proper display */
         margin: 20px auto 10px; /* Center align with top margin and add spacing */
     }
-
+    .left h1 {
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    .left h2 {
+        margin: 5px 0;
+        font-size: 19px;
+    }
     .right {
-        background-color: white; /* Ensure readability */
+        background-color:  rgb(215, 193, 223);
         position: relative; /* Ensure positioning context */
     }
-
+    .contact{
+        margin-top: 30px;
+    }
     .contact-icons {
         display: flex;
-        justify-content: center;
-        margin-top: 20px;
+        justify-content: space-around;
+        margin-top: 10px;
     }
 
     .contact-icons a {
         margin: 0 10px;
-        padding: 10px;
+        padding: 0px;
         transition: all 0.2s;
         color: #333; /* Adjust icon color */
         font-size: 24px; /* Adjust icon size */
